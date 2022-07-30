@@ -8,8 +8,8 @@ import sys
 from notify import notification
 
 # TIMER_LENGTH = 60 * 30 # in seconds
-TIMER_LENGTH = 10 # in seconds how long you have before still working check
-TIMEOUT_LENGTH = 5 # in seconds how long you have to click continue working before stopping
+TIMER_LENGTH = 30 * 60 # in seconds how long you have before still working check
+TIMEOUT_LENGTH = 5 * 60 # in seconds how long you have to click continue working before stopping
 DATA_LOCATION = "./data"
 
 assert TIMEOUT_LENGTH < TIMER_LENGTH
